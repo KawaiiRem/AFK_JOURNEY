@@ -1,0 +1,80 @@
+body{
+    background-color: #b2bfd5;
+}
+
+h1{
+    color: #a4174f;
+    text-align: center;
+}
+
+.characterImage img{
+    border-style: solid;
+    border-radius: 1px ;
+}
+
+.header{
+    background-color: #6a77e0;
+}
+
+.container{
+    display: flex;
+    gap: 1em;
+    background-color: #8ebac7;
+    justify-content: space-evenly;
+}
+.characterSummary{
+    display: flex;
+    flex-direction: column;
+}
+.characterSummary h2{
+    color: #c81ecc;
+}
+
+.characterDetails{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+}
+.characterDetailNavBar{
+    display: flex;
+    gap: 2em;
+    padding: 15px;
+}
+.characterDetailNavBar button{
+    font-size: 26px;
+    color: #c81ecc;
+    padding: 15px;
+}
+.characterDetails h2{
+    border-style: solid;
+    border-color: #10141c;
+    padding: 5px;
+}
+.typing{
+    display: flex;
+    gap: 2em;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.selectionDetails table, th, td{
+    border: 1px solid black;
+    font-size: 18px;
+    padding: 4px;
+    margin: 2px;
+}
+.selectionDetails{
+    display: flex;
+    flex-direction: column;
+}
+.skillDetails{
+    display: none;
+}
+.passiveDetails{
+    display: none;
+}
+.weaponDetails{
+    display: none;
+}
+.reviewDetails{
+    display: none;
+}
